@@ -97,7 +97,7 @@ This project highlights practical skills in:
 ---
 
 ## 📊 Dashboard Preview
-screenshot/dashboard
+![Dashboard Preview](screenshot/dashboard)
 
 ---
 
