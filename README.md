@@ -101,7 +101,7 @@ This project highlights practical skills in:
 
 ---
 
-## 6. Business Recommendations
+## 7. Business Recommendations
 
 - **Boost Subscriptions** – Promote exclusive benefits for subscribers.
 
