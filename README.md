@@ -15,13 +15,13 @@ This project highlights practical skills in:
 ---
 
 ## 📁 Dataset
-- **Source:** Public dataset *(replace with actual source)*  
+- **Source:** customer_behavior.csv*  
 - **Format:** CSV  
 - **Description:**  
   Includes fields such as *(modify based on your dataset)*:
-  - XX rows  
-  - XX columns  
-  - Key variables: customer data, transactions, dates, categories, etc.
+  - 3900 rows  
+  - 18 columns  
+  - Key variables: customer data , previous_percahsed , purchased_amount , categories, etc.
 
 ---
 
@@ -107,11 +107,3 @@ This project highlights practical skills in:
 - Found hidden opportunities and inefficiencies  
 - Recommended data-driven actions  
 
----
-
-## ▶️ How to Run
-
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
