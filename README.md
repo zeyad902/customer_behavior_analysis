@@ -97,7 +97,7 @@ This project highlights practical skills in:
 ---
 
 ## 📊 Dashboard Preview
-*(Insert screenshot or link when available)*
+screenshot/Screenshot 2025-11-19 143637.png
 
 ---
 
