@@ -1,116 +1,100 @@
-# 📊 Data Analytics Project – End-to-End Workflow
-
-## 🔍 Overview
-This project demonstrates a complete data analytics workflow, starting from loading and exploring raw data in Python, cleaning and transforming the dataset, running SQL queries for deeper insights, and finally visualizing results using Power BI.
-
-A final report and presentation were created using **Gamma** to summarize findings for business stakeholders.
-
-This project highlights practical skills in:
-- Data wrangling  
-- Exploratory Data Analysis (EDA)  
-- SQL querying (PostgreSQL / MySQL / SQL Server)  
-- Dashboard design  
-- Insight communication  
-
+# 👥 Customer Behavior Analysis
+ 
+> **A complete end-to-end analytics workflow — from raw data in Python, through SQL querying, to an interactive Power BI dashboard and business recommendations.**
+ 
 ---
-
+ 
+## 📌 Project Overview
+ 
+This project demonstrates a full data analytics pipeline applied to customer behavior data. The goal was to understand purchasing patterns, segment customers, and deliver actionable business recommendations for improving retention and revenue.
+ 
+---
+ 
 ## 📁 Dataset
-- **Source:** customer_behavior.csv*  
-- **Format:** CSV  
-- **Description:**  
-  Includes fields such as *(modify based on your dataset)*:
-  - 3900 rows  
-  - 18 columns  
-  - Key variables: customer data , previous_percahsed , purchased_amount , categories, etc.
-
+ 
+| Property | Details |
+|---|---|
+| Records | 3,900 rows |
+| Columns | 18 features |
+| Key Variables | Customer data, purchase amount, previous purchases, categories |
+| Format | CSV |
+ 
 ---
-
-## 🛠️ Tools & Technologies
-
-### **Programming & Data Analysis**
-- Python (Pandas, NumPy, Matplotlib/Seaborn)
-- Jupyter Notebook
-
-### **Databases**
-- PostgreSQL  
-- MySQL  
-- SQL Server  
-
-### **Visualization**
-- Power BI Desktop  
-- Gamma (for presentation)
-
-### **Other**
-- Git & GitHub
-
+ 
+## 🎯 Project Objectives
+ 
+- Understand customer purchasing behavior and patterns
+- Identify high-value customer segments
+- Uncover discount and subscription impact on revenue
+- Deliver data-driven business recommendations
 ---
-
-## 🧭 Project Steps
-
-### **1. Load and Explore the Dataset (Python)**
-- Imported dataset  
-- Checked structure, datatypes, missing values  
-- Basic visual exploration  
-
-### **2. Exploratory Data Analysis (EDA)**
-- Summary statistics  
-- Visualizations: distributions, correlations  
-- Trend analysis  
-- Identified anomalies and patterns  
-
+ 
+## 🛠️ Tech Stack
+ 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-blue?style=flat)
+![Seaborn](https://img.shields.io/badge/Seaborn-teal?style=flat)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+ 
 ---
-
-### **3. Data Cleaning & Preparation**
-- Handled missing values  
-- Removed duplicates  
-- Fixed inconsistent formats  
-- Feature engineering (if required)
-
+ 
+## 📂 Project Structure
+ 
+```
+customer-behavior-analysis/
+│
+├── customer_analysis.ipynb    # Python EDA notebook
+├── queries/
+│   └── analysis_queries.sql   # SQL analysis queries
+├── data/
+│   └── customer_behavior.csv  # Raw dataset
+├── screenshots/
+│   └── dashboard.png          # Power BI dashboard preview
+└── README.md
+```
+ 
 ---
-
-### **4. SQL Analysis**
-- Loaded cleaned dataset into SQL database  
-- Performed:
-  - Filtering and grouping  
-  - Joins  
-  - Aggregations  
-  - KPI calculations  
-
+ 
+## 🧭 Project Workflow
+ 
+### 1️⃣ Data Loading & Exploration (Python)
+- Imported and inspected dataset structure
+- Checked data types, missing values, and distributions
+- Initial visual exploration with Matplotlib & Seaborn
+### 2️⃣ Exploratory Data Analysis (EDA)
+- Summary statistics and distribution analysis
+- Correlation analysis between key variables
+- Trend and pattern identification
+- Anomaly detection
+### 3️⃣ Data Cleaning & Preparation
+- Handled missing values and removed duplicates
+- Fixed inconsistent formats and categories
+- Feature engineering where needed
+### 4️⃣ SQL Analysis
+- Loaded cleaned data into PostgreSQL
+- Performed filtering, grouping, joins, and aggregations
+- Calculated key KPIs using SQL queries
+### 5️⃣ Power BI Dashboard
+- Built interactive visuals: KPIs, trend charts, category breakdowns
+- Added slicers for dynamic filtering
+- Designed a clean, business-ready layout
 ---
-
-### **5. Power BI Dashboard**
-- Imported cleaned dataset  
-- Built interactive visuals:
-  - KPIs  
-  - Trend charts  
-  - Category breakdowns  
-  - Slicers/filters  
-- Designed a clean dashboard layout
-
+ 
+## 💡 Business Recommendations
+ 
+- **Boost Subscriptions** — Promote exclusive benefits to drive more subscribers
+- **Loyalty Programs** — Reward repeat buyers to build long-term retention
+- **Review Discount Policy** — Balance promotional discounts with margin control
+- **Product Positioning** — Highlight top-rated and best-selling items in campaigns
+- **Targeted Marketing** — Focus on high-revenue age groups and express-shipping users
 ---
-
-### **6. Final Report & Presentation**
-- Summarized results and insights  
-- Created a clean business presentation using **Gamma**  
-- Included recommendations based on findings  
-
----
-
-## 📊 Dashboard Preview
-![Dashboard Preview](screenshot/dashboard)
-
----
-
-## 7. Business Recommendations
-
-- **Boost Subscriptions** – Promote exclusive benefits for subscribers.
-
-- **Customer Loyalty Programs** – Reward repeat buyers to move them into the “Loyal” segment.
-
-- **Review Discount Policy** – Balance sales boosts with margin control.
-
-- **Product Positioning** – Highlight top-rated and best-selling products in campaigns.
-
-- **Targeted Marketing** – Focus efforts on high-revenue age groups and express-shipping users.
-
-
+ 
+## 👤 Author
+ 
+**Zeyad Mohamed Goda** — Data Analyst | Python · SQL · Power BI
+ 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/zeyad-mohamed-goda)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/zeyadmohamedgoda)
